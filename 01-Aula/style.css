@@ -1,0 +1,17 @@
+.conteiner {
+    display: grid;
+    justify-items: center;
+    gap: 1vh;
+}
+
+.aprovado {
+    color: green;
+    margin: 5px;
+    border: none;
+}
+
+.reprovado {
+    color: red;
+    margin: 5px;
+    border: none;
+}
