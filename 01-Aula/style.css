@@ -1,7 +1,15 @@
+/* Fernando Leonid */
 .conteiner {
-    display: grid;
+    display: none;
     justify-items: center;
     gap: 1vh;
+}
+
+.exibir {
+    display: grid;
+}
+#exibir {
+    cursor: pointer;
 }
 
 .aprovado {

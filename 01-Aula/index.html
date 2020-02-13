@@ -5,14 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" >
     <link rel="stylesheet" href="style.css">
-    <title>Testando o javaScritp</title>
+    <title>Testando o javaScrip</title>
 </head>
 
 <body>
+    <!-- Teste -->
+    <div id='exibir'> exibir </div>
+    <div id='ocultar'> ocultar </div>
     
     <div class="conteiner">
         <h1>Controle de Notas</h1>
+        <label> Nome:
+            <input type="text" id="nome">
+        </label>
+        <label>Nota1:
+            <input type="text" id="nota1">
+        </label>
+        <label>
+            Nota2:
+            <input type="text" id="nota2">
+        </label>
+            Média:
+            <input type="text" id="media" disabled>
+        </label>
+        Situação:
+        <input type="text" id="situacao" disabled>
+        Conceito:
+        <input type="text" id="conceito" disabled>
+
+        <input type="button" value="calcular" id="calcular">
+    </div>
+
+    <div class="conteiner">
+        <h1>Controle de Notas 2</h1>
         <label> Nome:
             <input type="text" id="nome">
         </label>
