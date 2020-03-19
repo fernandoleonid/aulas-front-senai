@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-rows: 15vh 70vh 15vh;
+    justify-content: center;
+    align-items: center;
+}
+header>div{
+    text-align: center;
+    font-weight:bold;
+}
+main>form {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+   
+}
+main>form>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>span {
+    display: flex;
+    font-size: x-small;
+    justify-content: center;
+}
