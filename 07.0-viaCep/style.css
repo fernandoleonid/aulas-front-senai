@@ -13,7 +13,7 @@ header>div{
     font-weight:bold;
 }
 main>form {
-    width: 50vw;
+    width: 30vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1vw;
