@@ -35,7 +35,6 @@ const next = () => {
 }
 
 
-
 insertImages(loadImages());
 
 document.getElementById('next').addEventListener ('click',next);
