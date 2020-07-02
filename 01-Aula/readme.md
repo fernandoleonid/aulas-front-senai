@@ -1,4 +1,4 @@
-# Projeto - Cálculo de médias e conceitos
+# Projeto - Calculado de médias e conceitos
 ## Capacidade 
 Desenvolver interfaces web interativas com linguagem de programação
 ## Conhecimento em javaScript
